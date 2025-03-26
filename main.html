@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex to RGB Float Converter</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+    <div class="converter">
+        <h1>Hex to RGB Float Converter</h1>
+        <input type="text" id="hexInput" placeholder="Enter Hex Color (e.g., #ff5733)" />
+        <button onclick="convertHexToRgbFloat()">Convert</button>
+        <div class="result" id="result"></div>
+        <button id="copyButton" style="display: none;" onclick="copyToClipboard()">Copy</button>
+    </div>
+    <script src="backend.js"></script>
+</body>
+
+</html>
